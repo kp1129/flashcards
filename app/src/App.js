@@ -1,15 +1,11 @@
-import { useState } from 'react';
+
 import './App.css';
-import Counter from './components/Counter/Counter';
-import Flashcard from './components/Flashcard/Flashcard';
+import CreateFlashcardsDash from './dashboards/CreateFlashcardsDash/CreateFlashcardsDash';
 
 function App() {
-  const [flashcards, setFlashcards] = useState([])
-
   return (
     <div className="app">
-      <Counter flashcards={flashcards}/>
-     <Flashcard flashcards={flashcards} setFlashcards={setFlashcards} />
+     <CreateFlashcardsDash />
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 55%;
+}
+
+.btn.next {
+  margin: 10px auto;
+  height: 50px;
+  width: 250px;
+  background-color: #83b25c;
+  color: #ffffff;
+  font-size: 1.75rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn.next:focus {
+  outline: 1px solid black;
+}
+
+.btn.next:hover {
+  background-color: #9dc27f;
+}
+
+.btn.next:active {
+  background-color: #9dc27f;
+  transform: translateY(2px);
+}
+
+.counter {
+  text-align: center;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.btn.submit {
+  width: 100%;
+}

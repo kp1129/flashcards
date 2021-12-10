@@ -1,0 +1,23 @@
+.notepad {
+  text-align: left;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin: 0 auto;
+  padding: 75px 50px;
+  width: 80vw;
+  max-width: 1000px;
+  height: 60vh;
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+.notepad:focus {
+  border: none;
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
